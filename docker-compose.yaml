@@ -17,7 +17,7 @@ services:
     environment:
       - DB_DATABASE=keycloak
       - DB_USER=keycloak
-      - DB_PASSWORD=keyclo@k    
+      - DB_PASSWORD=keycloak    
     restart: always
 
   mysql:
