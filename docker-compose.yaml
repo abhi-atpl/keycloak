@@ -29,7 +29,7 @@ services:
       - MYSQL_ROOT_PASSWORD=Aisse1
       - MYSQL_DATABASE=keycloak
       - MYSQL_USER=keycloak
-      - MYSQL_PASSWORD=keycloak
+      - MYSQL_PASSWORD=keycl0ak
     volumes:
       - mysql_data:/var/lib/mysql
     restart: always
